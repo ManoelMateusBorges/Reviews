@@ -1,0 +1,16 @@
+{
+  "name": "reviwes",
+  "version": "1.0.0",
+  "description": "Codigo em typescript de reviwes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManoelMateusBorges/Reviews.git"
+  },
+  "author": "Manoel Mateus",
+  "license": "ISC"
+}
