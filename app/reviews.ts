@@ -1,1 +1,8 @@
-alert("Hello");
+const profiles: Array<{}> = [
+    {
+        name: "",
+        profile: "",
+        image: "",
+        descricao: ""
+    }
+]

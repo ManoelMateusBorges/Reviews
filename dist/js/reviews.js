@@ -1,2 +1,4 @@
 "use strict";
-alert("Hello");
+const profiles = [
+    "string", "string"
+];
