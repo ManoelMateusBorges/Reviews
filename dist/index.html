@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 
-    <script src="./js/reviews.js" defer></script>
 </head>
 <body>
     <main class="bg-color d-flex align-items-center vh-100"> 
@@ -16,21 +15,23 @@
                 <h2 class="underline w-25 mx-auto ">Our Reviews</h2>
                 <div class="borderTop mb-4"></div>
                 <div class="shadow p-3 mb-5 bg-body rounded ">
-                    <div class="img">
-                        <img src="https://assets.stickpng.com/images/5874ccfc42e4d628738559e0.png" alt="" width="80">
+                    <div >
+                        <img class="img" alt="" width="80">
                     </div>
-                    <p class="name my-2">Nomes</p>
-                    <p class="profile">profissão</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facere molestiae totam ab quibusdam quisquam amet odio harum itaque vero, quis a dolore nulla repellat et. Velit blanditiis voluptatibus accusamus!</p>
+                    <p class="name my-2"></p>
+                    <p class="profile"></p>
+                    <p class="text"></p>
                 </div>
                 <div>
-                    <button class="mx-1 my-3 btn-hover fs-4 fw-bold border-0 p-3 "> &lang; </button>
-                    <button class="mx-1 my-3 btn-hover fs-4 fw-bold border-0 p-3 "> &rang; </button>
+                    <button class="prevBtn mx-1 my-3 btn-hover fs-4 fw-bold border-0 p-3 "> &lang; </button>
+                    <button class="nextBtn mx-1 my-3 btn-hover fs-4 fw-bold border-0 p-3 "> &rang; </button>
                 </div>
                 <div>
-                    <button>Surprise Me</button>
+                    <button id="random">Surprise Me</button>
                 </div>
             </div>
     </main>
+    <script src="./js/reviews.js"></script>
+
 </body>
 </html>

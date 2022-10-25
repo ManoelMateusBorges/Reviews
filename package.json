@@ -12,5 +12,9 @@
     "url": "https://github.com/ManoelMateusBorges/Reviews.git"
   },
   "author": "Manoel Mateus",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "typescript": "^4.8.4"
+  }
 }
